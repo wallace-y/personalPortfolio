@@ -81,7 +81,7 @@ img {
 
 /* styling main section */
 .main-section {
-  height: 400px;
+  height: 500px;
   background-color: #ffffff;
 }
 
@@ -98,13 +98,19 @@ img {
 }
 
 .grid {
+  height: 80%;
+  width: 100%;
   overflow: visible;
   display: grid;
   grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-content: center;
 }
 
 .grid-item-1,
-.grid-item-2 {
+.grid-item-2,
+.grid-item-3,
+.grid-item-4 {
   position: relative;
   top: 50px;
 }
@@ -138,7 +144,15 @@ footer a {
   margin: 0 10px;
 }
 
-/* dark mode class */
-/* .dark-mode {
-  background-color: black;
-} */
+/* styling projects and skills container */
+.projects-container {
+  background-color: #ffffff;
+  color: #6e6e6e;
+  height: 400px;
+}
+
+.skills-container {
+  background-color: #ffffff;
+  color: #6e6e6e;
+  height: 100px;
+}
