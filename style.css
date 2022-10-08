@@ -6,6 +6,17 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 16px;
+}
+
 /* navbar styling */
 
 .navbar {
@@ -106,4 +117,24 @@ img {
 
 .image {
   text-align: center;
+}
+
+/* footer styling */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+footer {
+  background-color: lightgray;
+  height: 70px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+footer a {
+  color: darkgray; /* change me!!! */
+  margin: 0 10px;
 }
