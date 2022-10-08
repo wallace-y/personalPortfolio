@@ -1,10 +1,11 @@
 function swapStyleSheet() {
   const linkPageStyle = document.getElementById("pagestyle");
   let currentStyle = linkPageStyle.getAttribute("href");
-  if ((currentStyle = "darkStyle.css")) {
+  console.log(currentStyle);
+  if (currentStyle === "darkStyle.css") {
     linkPageStyle.setAttribute("href", "style.css");
     currentStyle = "style.css";
-  } else if ((currentStyle = "style.css")) {
+  } else if (currentStyle === "style.css") {
     linkPageStyle.setAttribute("href", "darkStyle.css");
     currentStyle = "darkStyle.css";
   }
