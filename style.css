@@ -1,0 +1,71 @@
+/* Override default style and set padding and margin to nothing */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar styling */
+
+.navbar {
+  background-color: lightgray;
+  height: 70px;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  padding: 9px;
+  margin: 0 10px;
+}
+
+.navbar a:link {
+  color: black; /* change me!!! */
+}
+
+.navbar a:visited {
+  color: darkgray; /* change me!!! */
+}
+
+.navbar a:hover {
+  color: greenyellow; /* change me!!! */
+}
+
+.navbar a:active {
+  color: palevioletred; /* change me!!! */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.material-symbols-outlined {
+  margin-right: 10px;
+  color: darkgray;
+}
+
+/* container styling */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  overflow: visible;
+}
+
+img {
+  width: 100%;
+}
