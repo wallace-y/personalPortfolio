@@ -186,3 +186,9 @@ footer a {
 .skills-logos {
   margin-bottom: 30px;
 }
+
+/* make toggle clickable */
+
+#toggle {
+  cursor: pointer;
+}

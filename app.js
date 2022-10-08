@@ -15,3 +15,17 @@ function swapStyleSheet() {
 let toggleButton = document.getElementById("button");
 
 toggleButton.addEventListener("click", swapStyleSheet);
+
+const toggleItem = document.getElementById("toggle");
+
+function changeButton() {
+  console.log(toggleItem.innerHTML);
+  if (toggleItem.innerHTML === "toggle_off") {
+    toggleItem.innerHTML = "toggle_on";
+  } else if (toggleItem.innerHTML === "toggle_on") {
+    toggleItem.innerHTML = "toggle_off";
+  }
+  console.log(toggleItem.innerHTML);
+}
+
+toggleItem.addEventListener("click", changeButton);
