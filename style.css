@@ -7,6 +7,7 @@
 }
 
 h1 {
+  color: #6e6e6e;
   font-size: 30px;
   font-weight: 600;
   margin: 10px 0;
@@ -14,13 +15,14 @@ h1 {
 }
 
 p {
+  color: #6e6e6e;
   font-size: 16px;
 }
 
 /* navbar styling */
 
 .navbar {
-  background-color: lightgray;
+  background-color: #e8e8e8;
   height: 70px;
 }
 
@@ -40,24 +42,20 @@ p {
   margin: 0 10px;
 }
 
-.navbar a:link {
-  color: black; /* change me!!! */
-}
-
 .navbar a:visited {
-  color: darkgray; /* change me!!! */
+  color: #aeaeae; /* change me!!! */
 }
 
 .navbar a:hover {
-  color: greenyellow; /* change me!!! */
+  color: #ffffff; /* change me!!! */
 }
 
 .navbar a:active {
-  color: palevioletred; /* change me!!! */
+  color: #6e6e6e; /* change me!!! */
 }
 
 a {
-  color: black;
+  color: #6e6e6e;
   text-decoration: none;
 }
 
@@ -67,7 +65,7 @@ li {
 
 .material-symbols-outlined {
   margin-right: 10px;
-  color: darkgray;
+  color: #6e6e6e;
 }
 
 /* container styling */
@@ -84,7 +82,7 @@ img {
 /* styling main section */
 .main-section {
   height: 400px;
-  background-color: darkgoldenrod;
+  background-color: #ffffff;
 }
 
 .main-section h1 {
@@ -128,13 +126,17 @@ img {
 }
 
 footer {
-  background-color: lightgray;
+  background-color: #e8e8e8;
   height: 70px;
   padding: 20px 10px;
   text-align: center;
 }
 
 footer a {
-  color: darkgray; /* change me!!! */
+  color: #6e6e6e;
   margin: 0 10px;
+}
+
+/* dark mode class */
+.dark-mode {
 }
