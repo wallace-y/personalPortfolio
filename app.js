@@ -1,20 +1,4 @@
-function swapStyleSheet() {
-  const linkPageStyle = document.getElementById("pagestyle");
-  let currentStyle = linkPageStyle.getAttribute("href");
-  console.log(currentStyle);
-  if (currentStyle === "darkStyle.css") {
-    linkPageStyle.setAttribute("href", "style.css");
-    currentStyle = "style.css";
-  } else if (currentStyle === "style.css") {
-    linkPageStyle.setAttribute("href", "darkStyle.css");
-    currentStyle = "darkStyle.css";
-  }
-  console.log(currentStyle);
-}
-
-let toggleButton = document.getElementById("button");
-
-toggleButton.addEventListener("click", swapStyleSheet);
+// create simple animation of the toggle button changing
 
 const toggleItem = document.getElementById("toggle");
 
@@ -29,3 +13,23 @@ function changeButton() {
 }
 
 toggleItem.addEventListener("click", changeButton);
+
+// change the style sheet on press of the toggle above
+
+function swapStyleSheet() {
+  const linkPageStyle = document.getElementById("pagestyle");
+  let currentStyle = linkPageStyle.getAttribute("href");
+  console.log(currentStyle);
+  if (currentStyle === "darkStyle.css") {
+    linkPageStyle.setAttribute("href", "style.css");
+    currentStyle = "style.css";
+  } else if (currentStyle === "style.css") {
+    linkPageStyle.setAttribute("href", "darkStyle.css");
+    currentStyle = "darkStyle.css";
+  }
+  console.log(currentStyle);
+}
+
+// let toggleButton = document.getElementById("button");
+
+toggleItem.addEventListener("click", swapStyleSheet);
