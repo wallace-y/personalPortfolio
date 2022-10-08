@@ -144,6 +144,11 @@ footer a {
   margin: 0 10px;
 }
 
+.copyright {
+  display: grid;
+  align-items: center;
+}
+
 /* styling projects and skills container */
 .projects-container {
   background-color: #6e6e6e;
