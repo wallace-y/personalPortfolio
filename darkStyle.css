@@ -94,6 +94,7 @@ img {
   width: 200px;
   height: auto;
   border-radius: 50%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .grid {
@@ -153,5 +154,35 @@ footer a {
 .skills-container {
   background-color: #6e6e6e;
   color: #ffffff;
-  height: 100px;
+  height: 150px;
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/* styling projects section */
+.projects-title,
+.skills-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-list li {
+  margin-left: 30px;
+  padding: 10px;
+  list-style-type: square;
+}
+
+.projects-more-info {
+  text-align: center;
+}
+
+/* styling skills section */
+.fa-brands,
+.fa-solid {
+  padding: 10px;
+}
+.skills-logos {
+  margin-bottom: 30px;
 }
