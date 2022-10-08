@@ -146,14 +146,14 @@ footer a {
 
 /* styling projects and skills container */
 .projects-container {
-  background-color: #6e6e6e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #6e6e6e;
   height: 400px;
 }
 
 .skills-container {
-  background-color: #6e6e6e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #6e6e6e;
   height: 150px;
   margin-top: 10px;
   display: grid;

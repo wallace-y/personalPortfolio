@@ -19,7 +19,6 @@ toggleItem.addEventListener("click", changeButton);
 function swapStyleSheet() {
   const linkPageStyle = document.getElementById("pagestyle");
   let currentStyle = linkPageStyle.getAttribute("href");
-  console.log(currentStyle);
   if (currentStyle === "darkStyle.css") {
     linkPageStyle.setAttribute("href", "style.css");
     currentStyle = "style.css";
@@ -27,7 +26,6 @@ function swapStyleSheet() {
     linkPageStyle.setAttribute("href", "darkStyle.css");
     currentStyle = "darkStyle.css";
   }
-  console.log(currentStyle);
 }
 
 // let toggleButton = document.getElementById("button");
