@@ -7,7 +7,7 @@
 }
 
 h1 {
-  color: #6e6e6e;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 600;
   margin: 10px 0;
@@ -15,14 +15,14 @@ h1 {
 }
 
 p {
-  color: #6e6e6e;
+  color: #ffffff;
   font-size: 16px;
 }
 
 /* navbar styling */
 
 .navbar {
-  background-color: #e8e8e8;
+  background-color: #aeaeae;
   height: 70px;
 }
 
@@ -43,19 +43,19 @@ p {
 }
 
 .navbar a:visited {
-  color: #aeaeae; /* change me!!! */
+  color: #e8e8e8; /* change me!!! */
 }
 
 .navbar a:hover {
-  color: #ffffff; /* change me!!! */
-}
-
-.navbar a:active {
   color: #6e6e6e; /* change me!!! */
 }
 
+.navbar a:active {
+  color: #ffffff; /* change me!!! */
+}
+
 a {
-  color: #6e6e6e;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ li {
 
 .material-symbols-outlined {
   margin-right: 10px;
-  color: #6e6e6e;
+  color: #ffffff;
 }
 
 /* container styling */
@@ -82,7 +82,7 @@ img {
 /* styling main section */
 .main-section {
   height: 400px;
-  background-color: #ffffff;
+  background-color: #6e6e6e;
 }
 
 .main-section h1 {
@@ -126,14 +126,14 @@ img {
 }
 
 footer {
-  background-color: #e8e8e8;
+  background-color: #aeaeae;
   height: 70px;
   padding: 20px 10px;
   text-align: center;
 }
 
 footer a {
-  color: #6e6e6e;
+  color: #ffffff;
   margin: 0 10px;
 }
 
