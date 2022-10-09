@@ -1,0 +1,166 @@
+/* Override default style and set padding and margin to nothing */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #e8e8e8;
+}
+
+h1 {
+  color: #6e6e6e;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  color: #6e6e6e;
+  font-size: 1em;
+}
+
+/* navbar styling */
+
+.navbar {
+  background-color: #e8e8e8;
+  height: 4em;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  padding: 1em;
+  margin: 0 1em;
+}
+
+.navbar a:visited {
+  color: #aeaeae; /* change me!!! */
+}
+
+.navbar a:hover {
+  color: #ffffff; /* change me!!! */
+}
+
+.navbar a:active {
+  color: #6e6e6e; /* change me!!! */
+}
+
+a {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.material-symbols-outlined {
+  margin-right: 1em;
+  color: #6e6e6e;
+}
+
+/* container styling */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  overflow: visible;
+}
+
+img {
+  width: 100%;
+}
+
+/* styling main section */
+.main-section {
+  height: 50em;
+  background-color: #ffffff;
+  overflow: visible;
+}
+
+.main-section h1 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.cam-image {
+  width: 13em;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+}
+
+.intro-text {
+  text-align: center;
+  margin-left: 3em;
+}
+
+.image {
+  text-align: center;
+}
+
+/* footer styling */
+
+footer {
+  background-color: #e8e8e8;
+}
+
+.footer-grid {
+  height: 4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+  align-items: center;
+  justify-items: center;
+}
+
+footer a {
+  color: #6e6e6e;
+  margin: 0 1em;
+}
+
+.copyright {
+  display: grid;
+  align-items: center;
+}
+
+/* about me page styling */
+
+.para-text-top {
+  padding-top: 10px;
+}
+
+.para-text {
+  padding-bottom: 10px;
+}
+
+/* make homebutton clickable */
+
+#home-button {
+  cursor: pointer;
+  margin-right: 1em;
+  color: #6e6e6e;
+}
