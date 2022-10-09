@@ -113,7 +113,6 @@ img {
 .grid-item-3,
 .grid-item-4 {
   position: relative;
-  top: 3em;
 }
 
 .intro-text {
@@ -195,14 +194,4 @@ footer a {
 
 #toggle {
   cursor: pointer;
-}
-
-/* about me page styling */
-
-.para-text-top {
-  padding-top: 10px;
-}
-
-.para-text {
-  padding-bottom: 10px;
 }

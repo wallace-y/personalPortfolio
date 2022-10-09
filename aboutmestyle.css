@@ -81,7 +81,7 @@ img {
 
 /* styling main section */
 .main-section {
-  height: 35em;
+  height: 50em;
   background-color: #ffffff;
   overflow: visible;
 }
@@ -105,15 +105,15 @@ img {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
 }
 
 .grid-item-1,
-.grid-item-2,
-.grid-item-3,
-.grid-item-4 {
+.grid-item-2 {
   position: relative;
-  top: 3em;
+}
+
+.grid-item-2 {
 }
 
 .intro-text {
@@ -148,53 +148,6 @@ footer a {
 .copyright {
   display: grid;
   align-items: center;
-}
-
-/* styling projects and skills container */
-.projects-container {
-  background-color: #ffffff;
-  color: #6e6e6e;
-  height: 15%;
-}
-
-.skills-container {
-  background-color: #e8e8e8;
-  color: #6e6e6e;
-  height: 15%;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-}
-
-/* styling projects section */
-.projects-title,
-.skills-title {
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-.projects-list li {
-  margin-left: 2em;
-  padding: 2em;
-  list-style-type: square;
-}
-
-.projects-more-info {
-  padding: 3em;
-  text-align: center;
-}
-
-/* styling skills section */
-.fa-brands,
-.fa-solid {
-  padding: 1em;
-}
-
-/* make toggle clickable */
-
-#toggle {
-  cursor: pointer;
 }
 
 /* about me page styling */
