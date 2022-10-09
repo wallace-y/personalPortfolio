@@ -141,3 +141,10 @@ footer a {
   margin-right: 1em;
   color: #6e6e6e;
 }
+
+/* styling contact optint */
+
+.contact-options {
+  color: orangered;
+  padding: 10px;
+}
