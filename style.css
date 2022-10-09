@@ -4,13 +4,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #e8e8e8;
 }
 
 h1 {
   color: #6e6e6e;
   font-size: 2em;
   font-weight: 600;
-  margin: 1em 0;
   line-height: 1.2;
 }
 
@@ -81,7 +81,7 @@ img {
 
 /* styling main section */
 .main-section {
-  height: 50%;
+  height: 35em;
   background-color: #ffffff;
 }
 
@@ -98,7 +98,7 @@ img {
 }
 
 .grid {
-  height: 80%;
+  height: 100%;
   width: 100%;
   overflow: visible;
   display: grid;
@@ -157,10 +157,9 @@ footer a {
 }
 
 .skills-container {
-  background-color: #ffffff;
+  background-color: #e8e8e8;
   color: #6e6e6e;
   height: 15%;
-  margin-top: 1em;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -170,16 +169,18 @@ footer a {
 .projects-title,
 .skills-title {
   text-align: center;
-  padding: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
 }
 
 .projects-list li {
   margin-left: 2em;
-  padding: 1em;
+  padding: 2em;
   list-style-type: square;
 }
 
 .projects-more-info {
+  padding: 3em;
   text-align: center;
 }
 
@@ -187,9 +188,6 @@ footer a {
 .fa-brands,
 .fa-solid {
   padding: 1em;
-}
-.skills-logos {
-  margin-bottom: 2em;
 }
 
 /* make toggle clickable */
