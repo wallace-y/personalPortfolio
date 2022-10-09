@@ -63,11 +63,6 @@ li {
   list-style-type: none;
 }
 
-.material-symbols-outlined {
-  margin-right: 1em;
-  color: #6e6e6e;
-}
-
 /* container styling */
 .container {
   margin: 0 auto;
@@ -81,7 +76,7 @@ img {
 
 /* styling main section */
 .main-section {
-  height: 50em;
+  height: 20em;
   background-color: #ffffff;
   overflow: visible;
 }
@@ -91,34 +86,21 @@ img {
   margin-bottom: 2em;
 }
 
-.cam-image {
-  width: 13em;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
-}
-
 .grid {
   height: 100%;
   width: 100%;
   overflow: visible;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 80%;
   justify-content: center;
   align-content: flex-start;
 }
 
-.grid-item-1,
-.grid-item-2 {
+.grid-item-1 {
   position: relative;
 }
 
 .intro-text {
-  text-align: center;
-  margin-left: 3em;
-}
-
-.image {
   text-align: center;
 }
 
