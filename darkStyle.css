@@ -4,26 +4,26 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #6e6e6e;
 }
 
 h1 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 600;
-  margin: 10px 0;
   line-height: 1.2;
 }
 
 p {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 /* navbar styling */
 
 .navbar {
   background-color: #aeaeae;
-  height: 70px;
+  height: 4em;
 }
 
 .navbar .flex {
@@ -38,8 +38,8 @@ p {
 }
 
 .navbar a {
-  padding: 9px;
-  margin: 0 10px;
+  padding: 1em;
+  margin: 0 1em;
 }
 
 .navbar a:visited {
@@ -64,7 +64,7 @@ li {
 }
 
 .material-symbols-outlined {
-  margin-right: 10px;
+  margin-right: 1em;
   color: #ffffff;
 }
 
@@ -81,24 +81,24 @@ img {
 
 /* styling main section */
 .main-section {
-  height: 500px;
+  height: 35em;
   background-color: #6e6e6e;
 }
 
 .main-section h1 {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .cam-image {
-  width: 200px;
+  width: 13em;
   height: auto;
   border-radius: 50%;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .grid {
-  height: 80%;
+  height: 100%;
   width: 100%;
   overflow: visible;
   display: grid;
@@ -112,12 +112,12 @@ img {
 .grid-item-3,
 .grid-item-4 {
   position: relative;
-  top: 50px;
+  top: 3em;
 }
 
 .intro-text {
   text-align: center;
-  margin-left: 40px;
+  margin-left: 3em;
 }
 
 .image {
@@ -125,23 +125,22 @@ img {
 }
 
 /* footer styling */
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-}
-
 footer {
   background-color: #aeaeae;
-  height: 70px;
-  padding: 20px 10px;
-  text-align: center;
+}
+
+.footer-grid {
+  height: 4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+  align-items: center;
+  justify-items: center;
 }
 
 footer a {
   color: #ffffff;
-  margin: 0 10px;
+  margin: 0 1em;
 }
 
 .copyright {
@@ -153,14 +152,13 @@ footer a {
 .projects-container {
   background-color: #6e6e6e;
   color: #ffffff;
-  height: 400px;
+  height: 15%;
 }
 
 .skills-container {
   background-color: #6e6e6e;
   color: #ffffff;
-  height: 150px;
-  margin-top: 10px;
+  height: 15%;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -170,26 +168,25 @@ footer a {
 .projects-title,
 .skills-title {
   text-align: center;
-  padding: 20px;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
 }
 
 .projects-list li {
-  margin-left: 30px;
-  padding: 10px;
+  margin-left: 2em;
+  padding: 2em;
   list-style-type: square;
 }
 
 .projects-more-info {
+  padding: 3em;
   text-align: center;
 }
 
 /* styling skills section */
 .fa-brands,
 .fa-solid {
-  padding: 10px;
-}
-.skills-logos {
-  margin-bottom: 30px;
+  padding: 1em;
 }
 
 /* make toggle clickable */
