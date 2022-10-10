@@ -132,21 +132,16 @@ footer {
 
 .footer-grid {
   height: 4em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3em;
-  align-items: center;
-  justify-items: center;
 }
 
 footer a {
-  color: #6e6e6e;
+  padding: 1em;
   margin: 0 1em;
 }
 
 .copyright {
-  display: grid;
-  align-items: center;
+  padding: 1em;
+  margin: 0 1em;
 }
 
 /* styling projects and skills container */

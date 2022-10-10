@@ -125,27 +125,23 @@ img {
 }
 
 /* footer styling */
+
 footer {
-  background-color: #aeaeae;
+  background-color: #e8e8e8;
 }
 
 .footer-grid {
   height: 4em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3em;
-  align-items: center;
-  justify-items: center;
 }
 
 footer a {
-  color: #ffffff;
+  padding: 1em;
   margin: 0 1em;
 }
 
 .copyright {
-  display: grid;
-  align-items: center;
+  padding: 1em;
+  margin: 0 1em;
 }
 
 /* styling projects and skills container */
