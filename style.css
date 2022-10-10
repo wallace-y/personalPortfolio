@@ -43,15 +43,15 @@ p {
 }
 
 .navbar a:visited {
-  color: #aeaeae; /* change me!!! */
+  color: #6e6e6e;
 }
 
 .navbar a:hover {
-  color: #ffffff; /* change me!!! */
+  color: #ffffff;
 }
 
 .navbar a:active {
-  color: #6e6e6e; /* change me!!! */
+  color: #6e6e6e;
 }
 
 a {
