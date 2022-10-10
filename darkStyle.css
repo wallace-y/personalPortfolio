@@ -83,6 +83,7 @@ img {
 .main-section {
   height: 35em;
   background-color: #6e6e6e;
+  overflow: visible;
 }
 
 .main-section h1 {
@@ -112,7 +113,6 @@ img {
 .grid-item-3,
 .grid-item-4 {
   position: relative;
-  top: 3em;
 }
 
 .intro-text {
