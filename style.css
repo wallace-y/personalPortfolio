@@ -190,3 +190,23 @@ footer a {
 #toggle {
   cursor: pointer;
 }
+
+/* mobile and tablet sizing */
+
+@media screen and (max-width: 480px) {
+  .grid-item-2 {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: auto;
+  }
+
+  .intro-text {
+    margin: 1.5em;
+  }
+
+  .copyright-text {
+    font-size: 10px;
+  }
+}
